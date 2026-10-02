@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-size: cover;
+    min-height: 70vh;
+    width: 100%;
+    background-image: url("../img/cover.jpg");
+}
+
+h1 {
+    color: white;
+    font-size: 8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 15px;
+}
+
+nav a {
+    font-weight: bold;
+    color: #305A88;
+}
+
+h3 {
+    position: relative;
+    top: -35px;
+    left: 280px;
+    font-size: 1.65em;
+    color: #305A88;
+    width: 70%;
+}
+
+main {
+    width: 90%;
+    background-color: #C2BBBA;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+section .btn {
+    background-color: #803E52;
+    color: white;
+    font-weight: bold;
+    display: block;
+    float: right;
+    margin-bottom: 30px;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+.row p {
+    font-size: smaller;
+}
+
+footer {
+    text-align: center;
+}
+
+h2,
+h4,
+footer a {
+    color: #803E52;
+}
+
+h2 {
+    padding: 30px 0;
+}
+
+table {
+    background-color: #B56646;
+    background-blend-mode: lighten;
+}
+
+@media screen and (max-width:700px) {
+    h1 {
+        font-size: 6em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        top: -25px;
+        left: 210px;
+    }
+
+    .nav-link {
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .btn {
+        width: 100%;
+    }
+}
